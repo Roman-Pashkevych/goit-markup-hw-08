@@ -1,0 +1,36 @@
+.about {
+    background-color: var(--secondary-color);
+    padding-top: 47px;
+    padding-bottom: 94px;
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+.about__list {
+    display: flex;
+}
+.about__item {
+    flex-basis: calc((100%-2 * 30px) / 3);
+    position: relative;
+
+    &:not(:first-child) {
+        margin-left: 30px;
+    }
+}
+
+.about__img-title {
+    @include font-source(14px, var(--secondary-color), bold, 0.03em, 1.14);
+    text-align: center;
+    text-transform: uppercase;
+}
+.about__img-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
