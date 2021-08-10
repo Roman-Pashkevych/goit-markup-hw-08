@@ -117,6 +117,7 @@
         display: flex;
         align-items: baseline;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .box-social-link {
         margin-left: 165px;
@@ -124,9 +125,6 @@
 
     .form-footer {
         margin-bottom: 60px;
-    }
-    .box-logo-address {
-        margin-left: 61px;
     }
 
     .form__input-footer {
