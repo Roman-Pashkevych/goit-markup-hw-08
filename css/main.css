@@ -352,6 +352,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1200px) {
@@ -795,6 +796,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 479px) {
